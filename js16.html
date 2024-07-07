@@ -1,0 +1,24 @@
+<!--convert the first letter string in upercase function used-->
+<!--charAt() = to get a charector at an index-->
+<!--toupperCase() = to uppercase charectors-->
+<!--slice() = to slide any charector from the string-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var string = prompt("enter a string")
+        var first = string.charAt(0);
+        console.log(first)
+        console.log(first.toUpperCase())
+        var res = string.slice(1);
+        var caps = first.toUpperCase() +res;
+        console.log(caps);
+
+    </script>
+</body>
+</html>
